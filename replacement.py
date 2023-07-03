@@ -22,4 +22,4 @@ if __name__ == '__main__':
         # Write data in new file
         new_file = file.with_stem(f"{file.stem}_cyrillic")
         new_file.write_text(data, 'utf-8', 'replace')
-        print(new_file.absolute())
+        print(new_file.resolve())
